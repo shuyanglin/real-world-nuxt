@@ -1,0 +1,64 @@
+{
+    "events":[
+        {
+            "id": 698303,
+            "user": {
+                "id": "a1",
+                "name": "Adam"
+            },
+            "category": "Animal welfare",
+            "organiser": "Adam Jones",
+            "title": "Nyang Cat",
+            "description": "Yes Naaaaayaaang catty.",
+            "location": "Moew Town",
+            "date": "2020 July 13",
+            "time": "2:00",
+            "attendees": []
+        },
+        {
+            "id": 193454,
+            "user": {
+                "id": "b1",
+                "name": "Ben"
+            },
+            "category": "Forest cause",
+            "organiser": "Ben Miller",
+            "title": "Green Party",
+            "description": "Let trees sing.",
+            "location": "Windy Street",
+            "date": "2020 Auguest 23",
+            "time": "5:00",
+            "attendees": []
+        },
+        {
+            "id": 674443,
+            "user": {
+                "id": "c1",
+                "name": "Candy"
+            },
+            "category": "Sweet Treat",
+            "organiser": "Candy White",
+            "title": "Rainbow Sweety",
+            "description": "Sugar tax is nothing.",
+            "location": "Teeth-dropping Hall",
+            "date": "2020 July 5",
+            "time": "2:00",
+            "attendees": []
+        },
+        {
+            "id": 343234,
+            "user": {
+                "id": "d1",
+                "name": "Dan"
+            },
+            "category": "Fabric dyeing",
+            "organiser": "Dan Cooler",
+            "title": "Indigo Gogogo",
+            "description": "Lets dye some fabrics!",
+            "location": "Blue Town",
+            "date": "2020 July 31",
+            "time": "9:00",
+            "attendees": []
+        }
+    ]
+}
