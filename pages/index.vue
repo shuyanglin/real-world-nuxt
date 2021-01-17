@@ -9,13 +9,11 @@
   </div>
 </template>
 <script>
+import { mapState } from 'vuex'
 export default {
-  async asyncData({ $axios, error }) {
+  async fetch({ store, error }) {
     try {
-      const response = await $axios.get('http://localhost:3000/events')
-      return {
-        events: response.data,
-      }
+      await store.dispatch('events/fetchEvents')
     } catch (e) {
       error({
         statusCode: 503,
@@ -28,5 +26,8 @@ export default {
       title: 'Event Listing',
     }
   },
+  computed: mapState({
+    events: (state) => state.events.events,
+  }),
 }
 </script>
